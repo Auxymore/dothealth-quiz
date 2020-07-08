@@ -1,7 +1,9 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin: 120px;
+  font-family: Avenir;
+  
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +14,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +37,39 @@
     transform: rotate(360deg);
   }
 }
+
+.unselected-btn, .selected-btn, .next-btn, .previous-btn{
+  font-family: Avenir;
+  margin: 10px;
+  font-size: 20px;
+  background-color:white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.selected-btn{
+  background-color: #672BC2;
+  color:white
+}
+
+.next-btn{
+  border-radius: 35%;
+  background-color: #672BC2;
+  color:white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.previous-btn{
+  background-color: #672BC2;
+  color:white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-right: 150px;
+  border-radius: 35%;
+}
+
